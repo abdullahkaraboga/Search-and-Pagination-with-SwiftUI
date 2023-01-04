@@ -16,6 +16,10 @@
 		7B61524029661B8D0019F08E /* SearchPaginationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61523F29661B8D0019F08E /* SearchPaginationTests.swift */; };
 		7B61524A29661B8D0019F08E /* SearchPaginationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61524929661B8D0019F08E /* SearchPaginationUITests.swift */; };
 		7B61524C29661B8D0019F08E /* SearchPaginationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61524B29661B8D0019F08E /* SearchPaginationUITestsLaunchTests.swift */; };
+		7B61525C29661C5A0019F08E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61525B29661C5A0019F08E /* Home.swift */; };
+		7B61525E29661C6D0019F08E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61525D29661C6D0019F08E /* User.swift */; };
+		7B61526029661E150019F08E /* SearchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61525F29661E150019F08E /* SearchUser.swift */; };
+		7B615264296620060019F08E /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B615263296620060019F08E /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		7B61524529661B8D0019F08E /* SearchPaginationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchPaginationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B61524929661B8D0019F08E /* SearchPaginationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPaginationUITests.swift; sourceTree = "<group>"; };
 		7B61524B29661B8D0019F08E /* SearchPaginationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPaginationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B61525B29661C5A0019F08E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7B61525D29661C6D0019F08E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7B61525F29661E150019F08E /* SearchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUser.swift; sourceTree = "<group>"; };
+		7B615263296620060019F08E /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,9 @@
 		7B61522829661B8A0019F08E /* SearchPagination */ = {
 			isa = PBXGroup;
 			children = (
+				7B61525A29661BD00019F08E /* ViewModel */,
+				7B61525929661BC70019F08E /* Model */,
+				7B61525829661BB50019F08E /* View */,
 				7B61522929661B8A0019F08E /* SearchPaginationApp.swift */,
 				7B61522B29661B8A0019F08E /* ContentView.swift */,
 				7B61522D29661B8C0019F08E /* Assets.xcassets */,
@@ -131,6 +142,31 @@
 				7B61524B29661B8D0019F08E /* SearchPaginationUITestsLaunchTests.swift */,
 			);
 			path = SearchPaginationUITests;
+			sourceTree = "<group>";
+		};
+		7B61525829661BB50019F08E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B61525B29661C5A0019F08E /* Home.swift */,
+				7B615263296620060019F08E /* CustomSearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B61525929661BC70019F08E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B61525D29661C6D0019F08E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B61525A29661BD00019F08E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B61525F29661E150019F08E /* SearchUser.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +301,11 @@
 			files = (
 				7B61523329661B8C0019F08E /* Persistence.swift in Sources */,
 				7B61523629661B8C0019F08E /* SearchPagination.xcdatamodeld in Sources */,
+				7B61525E29661C6D0019F08E /* User.swift in Sources */,
+				7B61526029661E150019F08E /* SearchUser.swift in Sources */,
+				7B61525C29661C5A0019F08E /* Home.swift in Sources */,
 				7B61522C29661B8A0019F08E /* ContentView.swift in Sources */,
+				7B615264296620060019F08E /* CustomSearchBar.swift in Sources */,
 				7B61522A29661B8A0019F08E /* SearchPaginationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
